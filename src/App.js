@@ -1,9 +1,11 @@
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-     React JS Application
-    </div>
+    <React.Fragment >
+    <Header />
+    </React.Fragment>
   );
 }
 
